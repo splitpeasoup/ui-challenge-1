@@ -1,0 +1,186 @@
+
+html,body {
+
+  width: 800px;
+  
+}
+.container{
+  width:480px;
+  margin:auto;
+
+}
+
+.fourstack {
+  display : grid;
+  height : 475px;
+  width : 480px;
+  grid-template-rows: 25px;
+  grid-template-columns: 480px ;
+
+
+}
+
+.a {
+
+  grid-column: 1;
+  grid-row :  1/4;
+  background : #5FAD56;
+  
+
+}
+
+.b {
+ 
+  grid-column: 1;
+  grid-row :  4/10;
+  background: #F2C14E;
+ 
+
+ 
+}
+
+.c {
+  grid-column: 1;
+  grid-row :  10/15;
+  background :#F78154;
+  
+
+}
+
+.d {
+    grid-column : 1;
+    grid-row :  15/20;
+    background :#4D9078;
+  
+  
+  }
+
+.fourpack{
+  display:grid;
+  height: 500px;
+  width: 480px;
+  grid-template-columns: 240px 240px;
+  grid-template-rows: 250px 250px;
+
+}
+.e {
+      grid-row: 1;
+      grid-column: 1;
+      background :#B4436C;
+     
+    
+ }
+
+.f {
+    grid-row: 1;
+    grid-column:2;
+     background :#C6D8D3;
+
+  }
+
+.g {
+     grid-row: 2;
+     grid-column:1;   
+     background :#331832;
+    
+        
+  }
+
+.h {
+      grid-row: 2;
+      grid-column:2;
+      background :#F78154;
+  
+      
+  }
+
+.footer {
+
+    background : rgb(230, 156, 8);
+    height : 80px;
+    width: 480px;
+
+}
+
+@media all and (min-width: 800px){
+
+.container {
+  width: 960px;
+  margin: auto;
+  display : grid;
+  grid-template-columns: 10px 1 fr;
+  grid-template-rows: 10px 1 fr;
+}
+.a {
+  
+    grid-column: 1/97;
+    grid-row :  1/11;
+    background : #5FAD56;
+    
+  
+  }
+  
+  .b {
+   
+    grid-column: 1/21;
+    grid-row :  11/62;
+    background: #F2C14E;
+   
+  
+   
+  }
+  
+  .c {
+    grid-column: 21/60;
+    grid-row : 11/32;
+    background :#F78154;
+    
+  
+  }
+  
+  .d {
+      grid-column : 60/99;
+      grid-row :  11/32;
+      background :#4D9078;
+    
+    
+    }
+  
+
+  .e {
+        grid-column: 21/41;
+        grid-row: 32/58;
+        background :#B4436C;
+       
+      }
+  
+  .f {
+          grid-column:41/61;
+          grid-row: 32/58;
+          background :#C6D8D3;
+  
+    }
+  
+  .g {
+       grid-column:61/81;
+       grid-row: 32/58;   
+       background :#331832;
+      
+          
+    }
+  
+  .h {
+        grid-column: 81/101;
+        grid-row:32/58;
+        background :#F78154;
+    
+        
+    }
+
+  .i {
+      grid-column:21/98;
+      grid-row:;
+      background:  rgb(230, 156, 8) ;
+  }
+
+
