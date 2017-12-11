@@ -1,0 +1,57 @@
+*body {
+  display : grid;
+}
+
+.a {
+
+  background : #5FAD56;
+
+}
+
+.b {
+ 
+  background: #F2C14E;
+
+}
+
+.c {
+
+  background :#F78154;
+
+}
+
+.d {
+  
+    background :#4D9078;
+  
+  }
+
+.e {
+    
+      background :#B4436C;
+    
+ }
+
+.f {
+      
+     background :#C6D8D3;
+      
+  }
+
+.g {
+        
+     background :#331832;
+        
+  }
+
+.h {
+      
+      background :#F78154;
+      
+  }
+
+.end {
+
+    background : #FDF0D5;
+
+}
